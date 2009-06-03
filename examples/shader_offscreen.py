@@ -66,7 +66,7 @@ gl.glReadPixels(0, 0, WIDTH, HEIGHT, gl.GL_RGB, gl.GL_FLOAT,
 
 import matplotlib.pyplot as plt
 plt.imshow(arr)
-plt.show()
+plt.savefig("mandel.png")
 
 fbo.unbind()
 gl.glPopAttrib()
